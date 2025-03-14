@@ -9,6 +9,5 @@ Features
 Future works
    - Add singleton pattern
    - Add union arc
-   - 
 (https://github.com/user-attachments/assets/e40d7132-e254-48fc-addc-be16cea9ac8b)
 
