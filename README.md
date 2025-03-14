@@ -6,6 +6,7 @@ Features
    - Multi-threading implementation
    - file handeling 
    - Object-oriented programming principles
+
 Future works
    - Add singleton pattern
    - Add union arc
