@@ -13,25 +13,24 @@ public class FileConversionTask implements Runnable {
     public void run() {
         try {
             System.out.println("Converting " + inputFile + " to " + outputFormat);
-            Thread.sleep(2000); // Simulate processing
+            Thread.sleep(2000);
 
-            // Create output directory if not exists
+
             File outputDir = new File("output_files/");
             if (!outputDir.exists()) {
                 outputDir.mkdirs();
             }
 
-            // Generate output file name
             String outputFile = "output_files/" + new File(inputFile).getName().replaceAll("\\..*$", "") + "." + outputFormat;
 
-            // Read content from input file
+
             BufferedReader reader = new BufferedReader(new FileReader(inputFile));
             BufferedWriter writer = new BufferedWriter(new FileWriter(outputFile));
 
             String line;
             while ((line = reader.readLine()) != null) {
                 writer.write(line);
-                writer.newLine(); // Ensure proper line breaks
+                writer.newLine();
             }
 
             reader.close();
