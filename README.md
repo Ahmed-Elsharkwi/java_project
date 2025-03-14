@@ -1,0 +1,11 @@
+Overview
+This is a Java-based project that demonstrates core functionalities and best practices in Java development.
+this project contain 3 classes , it converts from txt file to pdf,html,word files
+
+Features
+   - Multi-threading implementation
+   - file handeling 
+   - Object-oriented programming principles
+Future works
+   - Add singleton pattern
+   - Add union arc
