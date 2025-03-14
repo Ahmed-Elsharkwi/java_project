@@ -8,7 +8,6 @@ public class ConversionManager {
         for (String format : outputFormats) {
             executor.execute(new FileConversionTask(inputFile, format));
         }
-
         executor.shutdown();
     }
 }
